@@ -83,7 +83,6 @@ Bundle 'jshint.vim'
 Bundle 'Syntastic'
 Bundle 'Solarized'
 Bundle 'Sass'
-Bundle 'javascript.vim'
 Bundle 'coffee.vim'
 Bundle 'ruby.vim'
 
@@ -136,7 +135,7 @@ set mat=2
 
 " No annoying sound on errors
 set noerrorbells
-set novisualbell
+set visualbell
 set t_vb=
 set tm=500
 
@@ -159,6 +158,7 @@ set ffs=unix,dos,mac
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
+set nowritebackup
 set nowb
 set noswapfile
 

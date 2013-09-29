@@ -59,6 +59,12 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+map <F2> :FufCoverageFile<CR>
+map <F3> :FufDir<CR>
+map <F4> :FufJumpList<CR>
+map <F5> :FufChangeList<CR>
+:cd ~/Google\ Drive/projects/ruby/
+
 " Finally, a trick by Steve Losh for when you forgot to sudo before editing a file that requires root privileges (typically /etc/hosts). This lets you use w!! to do that after you opened the file already:
 cmap w!! w !sudo tee % >/dev/null
 

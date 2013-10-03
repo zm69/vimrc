@@ -91,6 +91,13 @@ Bundle 'Solarized'
 Bundle 'Sass'
 Bundle 'coffee.vim'
 Bundle 'ruby.vim'
+Bundle 'vim-addon-ruby-debug-ide'
+Bundle 'Ruby-Snippets'
+Bundle 'ruby_imaps'
+Bundle 'indentruby.vim'
+Bundle 'ruby-matchit'
+Bundle 'flazz/vim-colorschemes'
+
 
 
  

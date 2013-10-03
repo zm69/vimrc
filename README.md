@@ -1,4 +1,6 @@
-vimrc
-=====
+vimrc & bash_profile 
+==========================================
 
-my vimrc
+MY AWESOME .vimrc and .bash_profile files.
+
+YES!
